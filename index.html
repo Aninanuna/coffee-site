@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Кофейня "Уютное Утро"</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кофейня "Уютное Утро"</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
 
-<nav>
+  <nav>
     <a href="#about">О нас</a>
     <a href="#menu">Меню</a>
     <a href="#contact">Контакты</a>
-</nav>
+  </nav>
 
-<header>
+  <header>
     <h1>Кофейня "Уютное Утро"</h1>
     <p>Вкус кофе. Тепло утра. Место для вдохновения.</p>
-</header>
+  </header>
 
-<section id="about" class="about">
+  <section id="about" class="about">
     <h2>О нас</h2>
     <p>"Уютное Утро" — это место, где каждый день начинается с аромата свежемолотого кофе и теплой атмосферы. Мы заботимся о каждом госте и готовим напитки с душой.</p>
-</section>
+  </section>
 
-<section id="menu" class="menu">
+  <section id="menu" class="menu">
     <h2>Наше меню</h2>
     <p>Попробуйте лучшие сорта кофе и свежую выпечку собственного приготовления!</p>
-    <img src="cappuccino.jpg" alt="Капучино" class="menu-img">
-    <br>
+    <img src="cappuccino.png" alt="Капучино" class="menu-img" />
+    <br />
     <button class="order-button" onclick="showThankYou()">Заказать кофе</button>
-</section>
+  </section>
 
-<section id="contact" class="contact">
+  <section id="contact" class="contact">
     <h2>Контакты</h2>
     <p>ул. Солнечная, 15, Москва</p>
     <p>Телефон: +7 (999) 123-45-67</p>
-</section>
+  </section>
 
-<footer>
+  <footer>
     <p>© 2025 Кофейня "Уютное Утро". Все права защищены.</p>
-</footer>
+  </footer>
 
-<div class="overlay" id="overlay">
+  <div class="overlay" id="overlay">
     <div class="popup">
-        <p>Спасибо за ваш заказ! Мы скоро свяжемся с вами.</p>
-        <button onclick="closeThankYou()">Закрыть</button>
+      <p>Спасибо за ваш заказ! Мы скоро свяжемся с вами.</p>
+      <button onclick="closeThankYou()">Закрыть</button>
     </div>
-</div>
+  </div>
 
 </body>
 </html>
+
